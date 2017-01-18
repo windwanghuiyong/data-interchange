@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITextView *tvParseResult;
+- (IBAction)onParseJson:(id)sender;
 
 @end
 

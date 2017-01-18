@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C08F62E1DD201F000A7F144 /* weatherinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C08F62D1DD201F000A7F144 /* weatherinfo.json */; };
 		0C27D2E71DD1EAB9001F9E9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C27D2E61DD1EAB9001F9E9D /* main.m */; };
 		0C27D2EA1DD1EAB9001F9E9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C27D2E91DD1EAB9001F9E9D /* AppDelegate.m */; };
 		0C27D2ED1DD1EAB9001F9E9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C27D2EC1DD1EAB9001F9E9D /* ViewController.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C08F62D1DD201F000A7F144 /* weatherinfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weatherinfo.json; sourceTree = "<group>"; };
 		0C27D2E21DD1EAB9001F9E9D /* DataInterchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataInterchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C27D2E61DD1EAB9001F9E9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C27D2E81DD1EAB9001F9E9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				0C27D2E91DD1EAB9001F9E9D /* AppDelegate.m */,
 				0C27D2EB1DD1EAB9001F9E9D /* ViewController.h */,
 				0C27D2EC1DD1EAB9001F9E9D /* ViewController.m */,
+				0C08F62D1DD201F000A7F144 /* weatherinfo.json */,
 				0C27D2EE1DD1EAB9001F9E9D /* Main.storyboard */,
 				0C27D2F41DD1EAB9001F9E9D /* Assets.xcassets */,
 				0C27D2F61DD1EAB9001F9E9D /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C08F62E1DD201F000A7F144 /* weatherinfo.json in Resources */,
 				0C27D2F81DD1EAB9001F9E9D /* LaunchScreen.storyboard in Resources */,
 				0C27D2F51DD1EAB9001F9E9D /* Assets.xcassets in Resources */,
 				0C27D2F01DD1EAB9001F9E9D /* Main.storyboard in Resources */,
@@ -314,6 +318,7 @@
 				0C27D2FE1DD1EAB9001F9E9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
